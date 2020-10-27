@@ -1,7 +1,14 @@
 public class Task5 {
-    public static void main(String[] args) {
+    static void myMethod() {
         System.out.println("Hello this is GitTask");
-        System.out.println("Hello class has been changed");
+    }
+        static void myMethod2(){
+            System.out.println("Hello class has been changed");
+    }
+        public static void main(String[] args){
+            myMethod();
+            myMethod2();
+
     }
 }
 
